@@ -4,7 +4,7 @@ $(".parallax-confirmar").parallax({
 });
 
 $(".parallax-portada").parallax({
-  imageSrc: "assets/img/portada(1).jpg",
+  imageSrc: "assets/img/portada.jpg",
 });
 
 // ----------------------
