@@ -3,6 +3,9 @@ $(".parallax-confirmar").parallax({
   imageSrc: "assets/img/fondo.png",
 });
 
+// Set position to "top" on desktop, "center" on mobile
+var positionPortada = window.innerWidth >= 760 ? "top" : "center";
+
 $(".parallax-portada").parallax({
   imageSrc: "assets/img/portada.jpg",
 });
