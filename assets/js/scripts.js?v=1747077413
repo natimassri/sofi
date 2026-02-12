@@ -8,6 +8,7 @@ var positionPortada = window.innerWidth >= 760 ? "top" : "center";
 
 $(".parallax-portada").parallax({
   imageSrc: "assets/img/portada.jpg",
+  position: positionPortada,
 });
 
 // ----------------------
