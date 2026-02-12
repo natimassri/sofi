@@ -5,9 +5,11 @@ $(".parallax-confirmar").parallax({
 
 // Set position to "top" on desktop, "center" on mobile
 var positionPortada = window.innerWidth >= 760 ? "top" : "center";
+var imagenPortada = window.innerWidth >= 760 ? "assets/img/portada-desktop.jpg" : "assets/img/portada.jpg";
+
 
 $(".parallax-portada").parallax({
-  imageSrc: "assets/img/portada.jpg",
+  imageSrc: imagenPortada,
   position: positionPortada,
 });
 
